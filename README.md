@@ -26,7 +26,7 @@ In addition to the tools listed below, the component suite includes **etk** and 
 
 
 #### Karma Information Integration Tool 
-`https://github.com/usc-isi-i2/Web-Karma` (stable, full-featured). 
+[https://github.com/usc-isi-i2/Web-Karma](https://github.com/usc-isi-i2/Web-Karma]) (stable, full-featured). 
 An information integration tool that enables users to quickly and easily integrate data from a variety of data sources including databases, spreadsheets, delimited text files, XML, JSON, KML and Web APIs. 
 
 
