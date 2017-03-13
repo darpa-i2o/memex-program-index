@@ -5,9 +5,13 @@ A list of memex-related tools and their repository URLs
 ## Crawlers
 
 #### Scrapy Cluster
-[https://github.com/istresearch/scrapy-cluster](https://github.com/istresearch/scrapy-cluster) (stable)
+[https://github.com/istresearch/scrapy-cluster](https://github.com/istresearch/scrapy-cluster) (stable).
 This project uses Redis and Kafka to create a distributed on demand scraping cluster. 
 Additional documentation: [http://scrapy-cluster.readthedocs.io/](http://scrapy-cluster.readthedocs.io/) 
+
+#### Crawl Data Repository (CDR) Schema
+[https://github.com/istresearch/memex-cdr](https://github.com/istresearch/memex-cdr) (stable).
+This repository hosts code and schema information related to the Memex Crawl Data Repository (CDR).
 
 ## Domain discovery systems
 
