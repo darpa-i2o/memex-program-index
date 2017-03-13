@@ -17,6 +17,10 @@ A general purpose toolkit for easily extracting semi-structured data, tables and
 An automated tool to create rules that extract data from web sites containing templetized pages.
 Landmark rules are directly usable in **etk**.
 
+#### ImageSift - Color Fingerprint Image Similarity
+[https://github.com/unchartedsoftware/TellFinder-ImageSift](https://github.com/unchartedsoftware/TellFinder-ImageSift) (stable).
+A reference implementation of the image similarity algorithm used by TellFinder. Includes a sample application and training data.
+
 ## End-to-end search systems
 
 ### DIG: Domain-Specific Insight Graphs
@@ -41,3 +45,30 @@ A search engine that translates structured queries for a knowledge graph to soph
 #### Graphical Interface For Searching Knowledge Graphs
 [https://github.com/NextCenturyCorporation/digapp-ht](https://github.com/NextCenturyCorporation/digapp-ht) (stable).
 A rich set of visual components for creating rich user interfaces for querying and visualizing knowledge graphs.
+
+### TellFinder
+
+#### Personas
+[https://github.com/uncharted/TellFinder-Personas](https://github.com/uncharted/TellFinder-Personas) (development - eta March 2017).
+UI component for the TellFinder 'Personas' visualization.
+
+#### Facets
+[https://github.com/uncharted/TellFinder-Facets](https://github.com/uncharted/TellFinder-Facets) (development - eta March 2017).
+UI component for the TellFinder 'Facets' visualization.
+
+#### TellFinder Data API
+[https://github.com/uncharted/TellFinder-DataAPI](https://github.com/uncharted/TellFinder-DataAPI) (development - eta March 2017).
+RESTful server for accessing all of TellFinder data models, analytics and search strategies. Includes authentication and case management modules.
+
+#### TellFinder Pipeline
+[https://github.com/uncharted/TellFinder-Pipeline](https://github.com/uncharted/TellFinder-Pipeline) (development - eta May 2017).
+General purpose distributed processes pipeline for ingesting web data into the TellFinder data model. Includes general purpose data cleaning, extraction, normalization and analytics. Based on the [https://github.com/unchartedsoftware/sparkpipe-core](Uncharted Spark Pipeline).
+
+#### TellFinder Example Component Application
+[https://github.com/uncharted/TellFinder-ComponentExample](https://github.com/uncharted/TellFinder-ComponentExample) (development - eta June 2017).
+Example application showing TellFinder UI components and Data API on a new domain. Includes sample data. 
+
+### TorFlow
+[https://github.com/unchartedsoftware/torflow](https://github.com/unchartedsoftware/torflow) (stable demo).
+A visualization of data flow in the Tor Network.
+
