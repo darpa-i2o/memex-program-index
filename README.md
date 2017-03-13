@@ -7,7 +7,7 @@ A list of memex-related tools and their repository URLs
 ### Scrapy
 [https://github.com/istresearch/scrapy-cluster](https://github.com/istresearch/scrapy-cluster) (stable)
 This project uses Redis and Kafka to create a distributed on demand scraping cluster. 
-Additional documentation:[http://scrapy-cluster.readthedocs.io/](http://scrapy-cluster.readthedocs.io/) 
+Additional documentation: [http://scrapy-cluster.readthedocs.io/](http://scrapy-cluster.readthedocs.io/) 
 
 ## Domain discovery systems
 
