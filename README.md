@@ -4,7 +4,7 @@ A list of memex-related tools and their repository URLs
 
 ## Crawlers
 
-### ACHE Crawler
+#### ACHE Crawler
 
 [https://github.com/ViDA-NYU/ache/](https://github.com/ViDA-NYU/ache/)
 
@@ -26,7 +26,7 @@ In development: a tool to classify web pages into categories used by MEMEX such 
 `webpageclassifier`: Categorizes urls as one of: blog|wiki|news|forum|classified|shopping|undecided. Manually-created if-then rules (decision tree) intended as a quick first-pass.
 * [https://github.com/asitang/webpageclassifier] (Original JPL webpageclassifier).
 * [https://github.com/Sotera/webpageclassifier] (Sotera's branch)
->>>>>>> 453729de78953a9869fe02b6f01fcc6f39bf25cc
+
 
 ## Domain discovery systems
 
