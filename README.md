@@ -73,3 +73,6 @@ Example application showing TellFinder UI components and Data API on a new domai
 [https://github.com/unchartedsoftware/torflow](https://github.com/unchartedsoftware/torflow) (stable demo).
 A visualization of data flow in the Tor Network.
 
+### Georgetown
+[https://github.com/SharonLingqiongTan/QA_interface[(https://github.com/SharonLingqiongTan/QA_interface) (development).
+Search interface based on Lemur and ElasticSearch. This interface allows user to search by structured and unstructured query, and tag relevant and irrelevant documents. User can also drag and drop image or text, then search similar image/text.
