@@ -8,7 +8,7 @@ A list of memex-related tools and their repository URLs
 
 [https://github.com/ViDA-NYU/ache/](https://github.com/ViDA-NYU/ache/)
 
-ACHE is a focused crawler: a web crawler that collects web pages that satisfy some specific property. ACHE differs from other crawlers in the sense that it includes page classifiers that allows it to distinguish between relevant and irrelevant pages in a given domain. It is also able to automatically learn how to prioritize links in order to find the relevant content on the web as fast as possible, at the same time it doesn't waste resources downloading irrelevant content.
+ACHE is a focused web crawler. It collects web pages that satisfy some specific criteria, e.g., pages that belong to a given domain or that contain a user-specified pattern. ACHE differs from generic crawlers in that it: employs learning classifiers to distinguish between relevant and irrelevant pages in a given domain, and automatically learns how to prioritize links in order to efficiently locate relevant content while avoiding the retrieval of irrelevant content.
 
 ## Domain discovery systems
 
@@ -16,7 +16,7 @@ ACHE is a focused crawler: a web crawler that collects web pages that satisfy so
 
 [https://github.com/ViDA-NYU/domain_discovery_tool](https://github.com/ViDA-NYU/domain_discovery_tool)
 
-DDT is an interactive system that helps users explore and better understand a domain (or topic) as it is represented on the Web. DDT allows a domain expert to visualize and analyze pages returned by a search engine or a crawler, and easily provide feedback about relevance.
+DDT is an interactive system that helps users explore and better understand a domain (or topic) as it is represented on the Web. DDT allows a domain expert to visualize and analyze pages returned by a search engine or a crawler and provide feedback about their relevance. Based on this feedback, the system guides the user in the creation of a model for the domain of interest. This model can then be used by a focused crawler such as ACHE to automatically discover and download a large number of web pages that belong to the domain.
 
 ## Extractors/NLP/Image processing
 
