@@ -4,11 +4,16 @@ A list of memex-related tools and their repository URLs
 
 ## Crawlers
 
+#### ACHE Crawler
+
+[https://github.com/ViDA-NYU/ache/](https://github.com/ViDA-NYU/ache/)
+
+ACHE is a focused web crawler. It collects web pages that satisfy some specific criteria, e.g., pages that belong to a given domain or that contain a user-specified pattern. ACHE differs from generic crawlers in that it: employs learning classifiers to distinguish between relevant and irrelevant pages in a given domain, and automatically learns how to prioritize links in order to efficiently locate relevant content while avoiding the retrieval of irrelevant content.
 
 #### Scrapy Cluster
 [https://github.com/istresearch/scrapy-cluster](https://github.com/istresearch/scrapy-cluster) (stable).
-This project uses Redis and Kafka to create a distributed on demand scraping cluster. 
-Additional documentation: [http://scrapy-cluster.readthedocs.io/](http://scrapy-cluster.readthedocs.io/) 
+This project uses Redis and Kafka to create a distributed on demand scraping cluster.
+Additional documentation: [http://scrapy-cluster.readthedocs.io/](http://scrapy-cluster.readthedocs.io/)
 
 #### Crawl Data Repository (CDR) Schema
 [https://github.com/istresearch/memex-cdr](https://github.com/istresearch/memex-cdr) (stable).
@@ -18,11 +23,18 @@ This repository hosts code and schema information related to the Memex Crawl Dat
 [https://github.com/Sotera/page-class] (page-class).
 In development: a tool to classify web pages into categories used by MEMEX such as blog|wiki|news|forum|classified|shopping. Testing several approaches and subsystems including `webpageclassifier`, below. Includes simple web app with JSON and HTML interfaces.
 
-`webpageclassifier`: Categorizes urls as one of: blog|wiki|news|forum|classified|shopping|undecided. Manually-created if-then rules (decision tree) intended as a quick first-pass. 
-* [https://github.com/asitang/webpageclassifier] (Original JPL webpageclassifier). 
-* [https://github.com/Sotera/webpageclassifier] (Sotera's branch)
+`webpageclassifier`: Categorizes urls as one of: blog|wiki|news|forum|classified|shopping|undecided. Manually-created if-then rules (decision tree) intended as a quick first-pass.
+* [https://github.com/asitang/webpageclassifier](https://github.com/asitang/webpageclassifier) (Original JPL webpageclassifier).
+* [https://github.com/Sotera/webpageclassifier](https://github.com/Sotera/webpageclassifier) (Sotera's branch)
+
 
 ## Domain discovery systems
+
+### Domain Discovery Tool (DDT)
+
+[https://github.com/ViDA-NYU/domain_discovery_tool](https://github.com/ViDA-NYU/domain_discovery_tool)
+
+DDT is an interactive system that helps users explore and better understand a domain (or topic) as it is represented on the Web. DDT allows a domain expert to visualize and analyze pages returned by a search engine or a crawler and provide feedback about their relevance. Based on this feedback, the system guides the user in the creation of a model for the domain of interest. This model can then be used by a focused crawler such as ACHE to automatically discover and download a large number of web pages that belong to the domain.
 
 ## Extractors/NLP/Image processing
 
@@ -43,14 +55,14 @@ A reference implementation of the image similarity algorithm used by TellFinder.
 ## End-to-end search systems
 
 ### DIG: Domain-Specific Insight Graphs
-DIG provides generic components to build end-to-end domain-specific search applications. 
+DIG provides generic components to build end-to-end domain-specific search applications.
 The DIG components are available as standalone tools.
 In addition to the tools listed below, the component suite includes **etk** and **landmark**, listed above.
 
 
-#### Karma Information Integration Tool 
-[https://github.com/usc-isi-i2/Web-Karma](https://github.com/usc-isi-i2/Web-Karma]) (stable, full-featured). 
-An information integration tool that enables users to quickly and easily integrate data from a variety of data sources including databases, spreadsheets, delimited text files, XML, JSON, KML and Web APIs. 
+#### Karma Information Integration Tool
+[https://github.com/usc-isi-i2/Web-Karma](https://github.com/usc-isi-i2/Web-Karma]) (stable, full-featured).
+An information integration tool that enables users to quickly and easily integrate data from a variety of data sources including databases, spreadsheets, delimited text files, XML, JSON, KML and Web APIs.
 
 
 #### Record Linkage Toolkit (rltk)
@@ -85,7 +97,7 @@ General purpose distributed processes pipeline for ingesting web data into the T
 
 #### TellFinder Example Component Application
 [https://github.com/uncharted/TellFinder-ComponentExample](https://github.com/uncharted/TellFinder-ComponentExample) (development - eta June 2017).
-Example application showing TellFinder UI components and Data API on a new domain. Includes sample data. 
+Example application showing TellFinder UI components and Data API on a new domain. Includes sample data.
 
 ### TorFlow
 [https://github.com/unchartedsoftware/torflow](https://github.com/unchartedsoftware/torflow) (stable demo).
@@ -94,4 +106,3 @@ A visualization of data flow in the Tor Network.
 ### Georgetown Search Interface
 [https://github.com/SharonLingqiongTan/QA_interface](https://github.com/SharonLingqiongTan/QA_interface) (development)
 Search interface based on Lemur and ElasticSearch, allowing user to search by structured query, unstructured query and tag documents. Also provides text/image drag & drop function and image search.
-
