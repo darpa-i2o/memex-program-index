@@ -24,8 +24,8 @@ This repository hosts code and schema information related to the Memex Crawl Dat
 In development: a tool to classify web pages into categories used by MEMEX such as blog|wiki|news|forum|classified|shopping. Testing several approaches and subsystems including `webpageclassifier`, below. Includes simple web app with JSON and HTML interfaces.
 
 `webpageclassifier`: Categorizes urls as one of: blog|wiki|news|forum|classified|shopping|undecided. Manually-created if-then rules (decision tree) intended as a quick first-pass.
-* [https://github.com/asitang/webpageclassifier] (Original JPL webpageclassifier).
-* [https://github.com/Sotera/webpageclassifier] (Sotera's branch)
+* [https://github.com/asitang/webpageclassifier](https://github.com/asitang/webpageclassifier) (Original JPL webpageclassifier).
+* [https://github.com/Sotera/webpageclassifier](https://github.com/Sotera/webpageclassifier) (Sotera's branch)
 
 
 ## Domain discovery systems
