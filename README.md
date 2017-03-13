@@ -4,6 +4,16 @@ A list of memex-related tools and their repository URLs
 
 ## Crawlers
 
+
+#### Scrapy Cluster
+[https://github.com/istresearch/scrapy-cluster](https://github.com/istresearch/scrapy-cluster) (stable).
+This project uses Redis and Kafka to create a distributed on demand scraping cluster. 
+Additional documentation: [http://scrapy-cluster.readthedocs.io/](http://scrapy-cluster.readthedocs.io/) 
+
+#### Crawl Data Repository (CDR) Schema
+[https://github.com/istresearch/memex-cdr](https://github.com/istresearch/memex-cdr) (stable).
+This repository hosts code and schema information related to the Memex Crawl Data Repository (CDR).
+
 ### Web Page Classifiers
 [https://github.com/Sotera/page-class] (page-class).
 In development: a tool to classify web pages into categories used by MEMEX such as blog|wiki|news|forum|classified|shopping. Testing several approaches and subsystems including `webpageclassifier`, below. Includes simple web app with JSON and HTML interfaces.
@@ -11,9 +21,6 @@ In development: a tool to classify web pages into categories used by MEMEX such 
 `webpageclassifier`: Categorizes urls as one of: blog|wiki|news|forum|classified|shopping|undecided. Manually-created if-then rules (decision tree) intended as a quick first-pass. 
 * [https://github.com/asitang/webpageclassifier] (Original JPL webpageclassifier). 
 * [https://github.com/Sotera/webpageclassifier] (Sotera's branch)
-
-
-
 
 ## Domain discovery systems
 
