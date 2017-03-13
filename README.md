@@ -4,6 +4,7 @@ A list of memex-related tools and their repository URLs
 
 ## Crawlers
 
+
 #### Scrapy Cluster
 [https://github.com/istresearch/scrapy-cluster](https://github.com/istresearch/scrapy-cluster) (stable).
 This project uses Redis and Kafka to create a distributed on demand scraping cluster. 
@@ -12,6 +13,14 @@ Additional documentation: [http://scrapy-cluster.readthedocs.io/](http://scrapy-
 #### Crawl Data Repository (CDR) Schema
 [https://github.com/istresearch/memex-cdr](https://github.com/istresearch/memex-cdr) (stable).
 This repository hosts code and schema information related to the Memex Crawl Data Repository (CDR).
+
+### Web Page Classifiers
+[https://github.com/Sotera/page-class] (page-class).
+In development: a tool to classify web pages into categories used by MEMEX such as blog|wiki|news|forum|classified|shopping. Testing several approaches and subsystems including `webpageclassifier`, below. Includes simple web app with JSON and HTML interfaces.
+
+`webpageclassifier`: Categorizes urls as one of: blog|wiki|news|forum|classified|shopping|undecided. Manually-created if-then rules (decision tree) intended as a quick first-pass. 
+* [https://github.com/asitang/webpageclassifier] (Original JPL webpageclassifier). 
+* [https://github.com/Sotera/webpageclassifier] (Sotera's branch)
 
 ## Domain discovery systems
 
@@ -81,4 +90,8 @@ Example application showing TellFinder UI components and Data API on a new domai
 ### TorFlow
 [https://github.com/unchartedsoftware/torflow](https://github.com/unchartedsoftware/torflow) (stable demo).
 A visualization of data flow in the Tor Network.
+
+### Georgetown Search Interface
+[https://github.com/SharonLingqiongTan/QA_interface](https://github.com/SharonLingqiongTan/QA_interface) (development)
+Search interface based on Lemur and ElasticSearch, allowing user to search by structured query, unstructured query and tag documents. Also provides text/image drag & drop function and image search.
 
