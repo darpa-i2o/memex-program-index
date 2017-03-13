@@ -4,7 +4,19 @@ A list of memex-related tools and their repository URLs
 
 ## Crawlers
 
+### ACHE Crawler
+
+[https://github.com/ViDA-NYU/ache/](https://github.com/ViDA-NYU/ache/)
+
+ACHE is a focused crawler: a web crawler that collects web pages that satisfy some specific property. ACHE differs from other crawlers in the sense that it includes page classifiers that allows it to distinguish between relevant and irrelevant pages in a given domain. It is also able to automatically learn how to prioritize links in order to find the relevant content on the web as fast as possible, at the same time it doesn't waste resources downloading irrelevant content.
+
 ## Domain discovery systems
+
+### Domain Discovery Tool (DDT)
+
+[https://github.com/ViDA-NYU/domain_discovery_tool](https://github.com/ViDA-NYU/domain_discovery_tool)
+
+DDT is an interactive system that helps users explore and better understand a domain (or topic) as it is represented on the Web. DDT allows a domain expert to visualize and analyze pages returned by a search engine or a crawler, and easily provide feedback about relevance.
 
 ## Extractors/NLP/Image processing
 
