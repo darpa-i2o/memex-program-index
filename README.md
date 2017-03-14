@@ -120,7 +120,11 @@ Search interface based on Lemur and ElasticSearch, allowing user to search by st
 ## Other tools
 
 ### Clustering
+
+#### CMU - Text Clustering
 https://github.com/autoncompute/KwikCluster Scalable clustering of text documents.
 
 ### Anomaly Detection
+
+#### CMU - TAD
 https://github.com/autonlab/tad  A service to run temporal anomaly detection on time series of counts.
