@@ -143,6 +143,14 @@ A reference implementation of the image similarity algorithm used by TellFinder.
 #### Rs-BKString
 [https://github.com/TeamHG-Memex/rs-bkstring](https://github.com/TeamHG-Memex/rs-bkstring) (stable) A BK Tree Library written in Rust.
 
+#### CMU - Compute Features
+https://github.com/autoncompute/ComputeFeatures This project contains the code for pre-computing pool5 features of database images.
+
+#### CMU - ITQ Hashing and Similarity Search Service
+https://github.com/autoncompute/ScalableLSH This project contains the code for computing ITQ hashing results based on pre-computed pool5 features and deploying a search server.
+
+#### CMU - Distribured ITQ
+https://github.com/autoncompute/BigITQ This project contains a distributed implementation of ITQ over SPARK.
 
 ## End-to-end search systems
 
@@ -193,8 +201,11 @@ Example application showing TellFinder UI components and Data API on a new domai
 [https://github.com/unchartedsoftware/torflow](https://github.com/unchartedsoftware/torflow) (stable demo).
 A visualization of data flow in the Tor Network.
 
-### Georgetown Search Interface
+### Georgetown Dynamic Search
 [https://github.com/SharonLingqiongTan/QA_interface](https://github.com/SharonLingqiongTan/QA_interface) (development)
+
+#### Structured query Search
+Provide phone basic search like phone, email search. And also provide other features search like name, age (range search), ethnicity, nationality, location, hair color, eye color and so on.
 Search interface based on Lemur and ElasticSearch, allowing user to search by structured query, unstructured query and tag documents. Also provides text/image drag & drop function and image search.
 
 ### HG Profiler
@@ -204,3 +215,21 @@ Search interface based on Lemur and ElasticSearch, allowing user to search by st
 
 ### Agnostic
 [https://github.com/TeamHG-Memex/agnostic](https://github.com/TeamHG-Memex/agnostic) (stable) Agnostic is a light-weight, easy-to-learn, and flexible database migration tool in which migration scripts are written in pure SQL. It is agnostic to database, programming language, and object relational mapper (ORM).
+
+### Image and text drag and drop
+Allow user to drag and drop image or text to drop box.
+
+### Image search
+Allow user to search similar image and return document.
+
+## Other tools
+
+### Clustering
+
+#### CMU - Text Clustering
+https://github.com/autoncompute/KwikCluster Scalable clustering of text documents.
+
+### Anomaly Detection
+
+#### CMU - TAD
+https://github.com/autonlab/tad  A service to run temporal anomaly detection on time series of counts.
