@@ -52,6 +52,16 @@ Landmark rules are directly usable in **etk**.
 [https://github.com/unchartedsoftware/TellFinder-ImageSift](https://github.com/unchartedsoftware/TellFinder-ImageSift) (stable).
 A reference implementation of the image similarity algorithm used by TellFinder. Includes a sample application and training data.
 
+#### CMU - Compute Features
+https://github.com/autoncompute/ComputeFeatures This project contains the code for pre-computing pool5 features of database images.
+
+#### CMU - ITQ Hashing and Similarity Search Service
+https://github.com/autoncompute/ScalableLSH This project contains the code for computing ITQ hashing results based on pre-computed pool5 features and deploying a search server.
+
+#### CMU - Distribured ITQ
+https://github.com/autoncompute/BigITQ This project contains a distributed implementation of ITQ over SPARK.
+
+
 ## End-to-end search systems
 
 ### DIG: Domain-Specific Insight Graphs
@@ -108,9 +118,23 @@ A visualization of data flow in the Tor Network.
 
 #### Structured query Search
 Provide phone basic search like phone, email search. And also provide other features search like name, age (range search), ethnicity, nationality, location, hair color, eye color and so on.
+Search interface based on Lemur and ElasticSearch, allowing user to search by structured query, unstructured query and tag documents. Also provides text/image drag & drop function and image search.
 
 #### Image and text drag and drop
 Allow user to drag and drop image or text to drop box.
 
 #### Image search
 Allow user to search similar image and return document.
+
+## Other tools
+
+### Clustering
+
+#### CMU - Text Clustering
+https://github.com/autoncompute/KwikCluster Scalable clustering of text documents.
+
+### Anomaly Detection
+
+#### CMU - TAD
+https://github.com/autonlab/tad  A service to run temporal anomaly detection on time series of counts.
+
