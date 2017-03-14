@@ -19,6 +19,7 @@ Additional documentation: [http://scrapy-cluster.readthedocs.io/](http://scrapy-
 [https://github.com/TeamHG-Memex/undercrawler](https://github.com/TeamHG-Memex/undercrawler) (stable) This is a generic Scrapy crawler designed to handle a number of challenges that are hard for traditional generic crawlers, such as dynamic content, login and search forms, pagination. It crawls from the given seed url in breadth first order, exporting all crawled pages and documents into the Memex CDRv2 format.
 
 #### Deep-Deep
+[https://github.com/TeamHG-Memex/deep-deep](https://github.com/TeamHG-Memex/deep-deep) (dev) Deep-Deep is a Scrapy-based crawler which uses Reinforcement Learning methods to learn which links to follow. It is called Deep-Deep, but it doesn't use Deep Learning, and it is not only for Deep web. Weird.
 
 #### Scrapy-Dockerhub
 [https://github.com/TeamHG-Memex/scrapy-dockerhub](https://github.com/TeamHG-Memex/scrapy-dockerhub) (alpha) Scrapy-Dockerhub is a deployment setup for Scrapy spiders that packages the spider and all dependencies into a Docker container, which is then managed by a Fabric command line utility. With this setup, users can run spiders seamlessly on any server, without the need for Scrapyd, which typically handles the spider management. With Scrapy-Dockerhub, users issue one command to deploy spider with all dependencies to the server and second command to run it. There are also commands for viewing jobs, logs, etc. 
@@ -108,8 +109,6 @@ This repository hosts code and schema information related to the Memex Crawl Dat
 [https://github.com/ViDA-NYU/domain_discovery_tool](https://github.com/ViDA-NYU/domain_discovery_tool)
 
 DDT is an interactive system that helps users explore and better understand a domain (or topic) as it is represented on the Web. DDT allows a domain expert to visualize and analyze pages returned by a search engine or a crawler and provide feedback about their relevance. Based on this feedback, the system guides the user in the creation of a model for the domain of interest. This model can then be used by a focused crawler such as ACHE to automatically discover and download a large number of web pages that belong to the domain.
-
-### SiteHound
 
 ### QuickPin
 [https://github.com/TeamHG-Memex/quickpin](https://github.com/TeamHG-Memex/quickpin) (stable) QuickPin is a tool for quickly flagging and examining online accounts related to a topic of interest. A Python wrapper for the API can be found at https://github.com/TeamHG-Memex/quickpin-api.
