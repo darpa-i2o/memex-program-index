@@ -75,8 +75,11 @@ This repository hosts code and schema information related to the Memex Crawl Dat
 #### Scrash-LUA-Examples
 [https://github.com/TeamHG-Memex/scrash-lua-examples](https://github.com/TeamHG-Memex/scrash-lua-examples) (POC, WIP) A set of LUA directives with JavaScript helpers that are useful to scrape dynamic pages with extensive AJAX calls.
 
-#### Soft404
-[https://github.com/TeamHG-Memex/soft404](https://github.com/TeamHG-Memex/soft404) (stable) A classifier for detecting soft 404 pages.
+#### Scrapy Rotating Proxies
+[https://github.com/TeamHG-Memex/scrapy-rotating-proxies](https://github.com/TeamHG-Memex/scrapy-rotating-proxies) (stable) This package provides a Scrapy middleware to use rotating proxies, check that they are alive and adjust crawling speed.
+
+#### Scrapy-Crawl-Once
+[https://github.com/TeamHG-Memex/scrapy-crawl-once](https://github.com/TeamHG-Memex/scrapy-crawl-once) (stable) This package provides a Scrapy middleware which allows to avoid re-crawling pages which were already downloaded in previous crawls.
 
 ### Web Page Classifiers
 
@@ -89,6 +92,9 @@ This repository hosts code and schema information related to the Memex Crawl Dat
 
 #### Page-Compare
 [https://github.com/TeamHG-Memex/page-compare](https://github.com/TeamHG-Memex/page-compare) (stable) This is a simple toolset for measuring the similarity of web pages.
+
+#### Soft404
+[https://github.com/TeamHG-Memex/soft404](https://github.com/TeamHG-Memex/soft404) (stable) A classifier for detecting soft 404 pages.
 
 
 ### Machine Learning Utilities
@@ -126,6 +132,12 @@ Landmark rules are directly usable in **etk**.
 
 #### FreeEed 
 [https://github.com/shmsoft/FreeEed](https://github.com/shmsoft/FreeEed) (stable) FreeEed (Free Electronic Evidence Discovery) is open source software for legal discovery (eDiscovery). It is created and maintained by SHMsoft, Inc., and is licensed under Apache 2 license. Development on FreeEed was partially supported under the Memex program. FreeEed software is intended to process any number of electronic documents, extract metadata and text, and cull them based on keywords. It produces a "load file" with metadata, and an output zip file, which contains all of the text extracted from each document, as well as original (or "native") files. It is designed to be scalable. It works on a Hadoop cluster of tens or hundreds of machines. Work is be divided among and processed by all the machines. It will also work on the Amazon EC2 cloud.
+
+#### HTML-Text Extractor
+[https://github.com/TeamHG-Memex/html-text](https://github.com/TeamHG-Memex/html-text) (stable) Extract text from HTML. How is html_text different from .xpath('//text()') from LXML or .get_text() from Beautiful Soup? Text extracted with html_text does not contain inline styles, javascript, comments and other text that is not normally visible to the users.
+
+#### Extract-HTML-Diff
+[https://github.com/TeamHG-Memex/extract-html-diff](https://github.com/TeamHG-Memex/extract-html-diff) (stable) This package allows you to extract a difference between two html pages: given pages A and B, it will try to extract parts of A that are changed in B. It uses lxml.html.diff under the hood. but provides only changed parts as HTML.
 
 #### ImageSift - Color Fingerprint Image Similarity
 [https://github.com/unchartedsoftware/TellFinder-ImageSift](https://github.com/unchartedsoftware/TellFinder-ImageSift) (stable).
@@ -213,16 +225,17 @@ Search interface based on Lemur and ElasticSearch, allowing user to search by st
 
 ## Other Utilities
 
-### Agnostic
+#### Agnostic
 [https://github.com/TeamHG-Memex/agnostic](https://github.com/TeamHG-Memex/agnostic) (stable) Agnostic is a light-weight, easy-to-learn, and flexible database migration tool in which migration scripts are written in pure SQL. It is agnostic to database, programming language, and object relational mapper (ORM).
 
-### Image and text drag and drop
+#### JSON Lines
+[https://github.com/TeamHG-Memex/json-lines](https://github.com/TeamHG-Memex/json-lines) (dev) This is a tiny library for reading JSON lines (.jl) files, including gzipped and broken files. JSON lines is a text file format where each line is a single json encoded item. Reading a well-formed JSON lines file is a one-liner in Python. But if the file can be broken (this happens when the process writing it is killed), handling all exceptions takes 10x more code, especially when the file is compressed.
+
+#### Image and text drag and drop
 Allow user to drag and drop image or text to drop box.
 
-### Image search
+#### Image search
 Allow user to search similar image and return document.
-
-## Other tools
 
 ### Clustering
 
