@@ -116,6 +116,11 @@ This repository hosts code and schema information related to the Memex Crawl Dat
 
 DDT is an interactive system that helps users explore and better understand a domain (or topic) as it is represented on the Web. DDT allows a domain expert to visualize and analyze pages returned by a search engine or a crawler and provide feedback about their relevance. Based on this feedback, the system guides the user in the creation of a model for the domain of interest. This model can then be used by a focused crawler such as ACHE to automatically discover and download a large number of web pages that belong to the domain.
 
+### Site Hound (formerly THH)
+[https://github.com/TeamHG-Memex/sitehound ](https://github.com/TeamHG-Memex/sitehound)
+
+Site Hound (previously THH) is a Domain Discovery Tool that extends the capabilities of commercial search engines using automation and human-in-the-loop (HITL) machine learning, allowing the user efficiently expand the set of relevant web pages within his domain/s or topic/s of interest. Site Hound is the UI to a more complex set of tools (which are described and linked to in this repository READ ME). Site Hound was developed under the Memex Program by HyperionGray LLC in partnership with Scrapinghub, Ltd.
+
 ### QuickPin
 [https://github.com/TeamHG-Memex/quickpin](https://github.com/TeamHG-Memex/quickpin) (stable) QuickPin is a tool for quickly flagging and examining online accounts related to a topic of interest. A Python wrapper for the API can be found at https://github.com/TeamHG-Memex/quickpin-api.
 
