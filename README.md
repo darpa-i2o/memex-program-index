@@ -194,20 +194,19 @@ A rich set of visual components for creating rich user interfaces for querying a
 
 ### TellFinder
 
-#### Personas
-[https://github.com/uncharted/TellFinder-Personas](https://github.com/uncharted/TellFinder-Personas) (development - eta March 2017).
-UI component for the TellFinder 'Personas' visualization.
+#### Stories Components
+[https://github.com/unchartedsoftware/stories-personas](https://github.com/unchartedsoftware/stories-personas) (development - eta May 2017).
+UI component for the Stories 'Personas' visualization.
 
-#### Facets
-[https://github.com/uncharted/TellFinder-Facets](https://github.com/uncharted/TellFinder-Facets) (development - eta March 2017).
-UI component for the TellFinder 'Facets' visualization.
+[https://github.com/unchartedsoftware/stories-facets](https://github.com/unchartedsoftware/stories-facets) (stable).
+UI component for the Stories 'Facets' visualization.
 
 #### TellFinder Data API
-[https://github.com/uncharted/TellFinder-DataAPI](https://github.com/uncharted/TellFinder-DataAPI) (development - eta March 2017).
+[https://github.com/uncharted/TellFinder-DataAPI](https://github.com/uncharted/TellFinder-DataAPI) (development - eta May 2017).
 RESTful server for accessing all of TellFinder data models, analytics and search strategies. Includes authentication and case management modules.
 
 #### TellFinder Pipeline
-[https://github.com/uncharted/TellFinder-Pipeline](https://github.com/uncharted/TellFinder-Pipeline) (development - eta May 2017).
+[https://github.com/uncharted/TellFinder-Pipeline](https://github.com/uncharted/TellFinder-Pipeline) (development - eta June 2017).
 General purpose distributed processes pipeline for ingesting web data into the TellFinder data model. Includes general purpose data cleaning, extraction, normalization and analytics. Based on the [https://github.com/unchartedsoftware/sparkpipe-core](Uncharted Spark Pipeline).
 
 #### TellFinder Example Component Application
