@@ -15,6 +15,8 @@ ACHE is a focused web crawler. It collects web pages that satisfy some specific 
 This project uses Redis and Kafka to create a distributed on demand scraping cluster.
 Additional documentation: [http://scrapy-cluster.readthedocs.io/](http://scrapy-cluster.readthedocs.io/)
 
+
+
 #### Undercrawler
 [https://github.com/TeamHG-Memex/undercrawler](https://github.com/TeamHG-Memex/undercrawler) (stable) This is a generic Scrapy crawler designed to handle a number of challenges that are hard for traditional generic crawlers, such as dynamic content, login and search forms, pagination. It crawls from the given seed url in breadth first order, exporting all crawled pages and documents into the Memex CDRv2 format.
 
@@ -37,7 +39,12 @@ Additional documentation: [http://scrapy-cluster.readthedocs.io/](http://scrapy-
 [https://github.com/istresearch/memex-cdr](https://github.com/istresearch/memex-cdr) (stable).
 This repository hosts code and schema information related to the Memex Crawl Data Repository (CDR).
 
+#### SRI Forum Spider 
+[https://github.com/pporras7/TeamSRI-LIGHTS] (https://github.com/pporras7/TeamSRI-LIGHTS) (stable).
+An interactive web forum analysis tool that operates over Tor hidden services. This tool is capable of passive forum data capture and posting dialog at random or user-specifiable intervals. (Python) 
+
 ### Crawler Utilities
+
 
 #### Aquarium
 [https://github.com/TeamHG-Memex/aquarium](https://github.com/TeamHG-Memex/aquarium) (stable) Aquarium is a cookiecuter template for hassle-free Docker Compose + Splash setup. Think of it as a Splash instance with extra features and without common pitfalls.
@@ -80,6 +87,11 @@ This repository hosts code and schema information related to the Memex Crawl Dat
 
 #### Scrapy-Crawl-Once
 [https://github.com/TeamHG-Memex/scrapy-crawl-once](https://github.com/TeamHG-Memex/scrapy-crawl-once) (stable) This package provides a Scrapy middleware which allows to avoid re-crawling pages which were already downloaded in previous crawls.
+
+#### SRI HSProbe
+[https://github.com/pporras7/TeamSRI-LIGHTS] (https://github.com/pporras7/TeamSRI-LIGHTS) (stable).
+HSProbe is a python multi-threaded STEM-based application designed to interrogate the status of Tor hidden services (HSs) and extracting hidden service content. It is an HS-protocol savvy crawler, that uses protocol error codes to decide what to do when a hidden service is not reached. HSProbe tests whether specified Tor hidden services (.onion addresses) are listening on one of a range of pre-specified ports, and optionally, whether they are speaking over other specified protocols. As of this version, support for HTTP and HTTPS is implemented. Hsprobe takes as input a list of hidden services to be probed and generates as output a similar list of the results of each hidden service probed. (Python)
+
 
 ### Web Page Classifiers
 
