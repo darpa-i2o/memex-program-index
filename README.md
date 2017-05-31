@@ -181,6 +181,33 @@ https://github.com/autoncompute/ScalableLSH This project contains the code for c
 #### CMU - Distribured ITQ
 https://github.com/autoncompute/BigITQ This project contains a distributed implementation of ITQ over SPARK.
 
+#### MIT-LL - pySLGR
+[https://github.com/mitll/pyslgr](https://github.com/mitll/pyslgr) A Python tool for Speaker, Language, and Gender Recognition (SLGR) and general meta-data extraction.
+
+#### MIT-LL - MITIE
+[https://github.com/mit-nlp/MITIE](https://github.com/mit-nlp/MITIE) State-of-the-art information extraction tools for named entity extraction and binary relation detection as well as tools for training custom extractors and relation detectors.
+
+#### MIT-LL - topic-clustering
+[https://github.com/mitll/topic-clustering](https://github.com/mitll/topic-clustering) Efficient topic-modeling via Probabilistic Latent Semantic Analysis (pLSA)
+
+#### MIT-LL - TweetE
+[https://github.com/mitll/TweetE](https://github.com/mitll/TweetE) Tools for scraping of twitter data, conversion, text analysis and graph construction. This software consists of several easy-to-use Python modules for several aspects of natural language processing with Twitter.
+
+#### MIT-LL - LiLAC
+[https://github.com/mitll/LiLAC](https://github.com/mitll/LiLAC) A python tool for author classification via lexiographical features.
+
+#### MIT-LL - LLString
+[https://github.com/mitll/LLString](https://github.com/mitll/LLString) A python library for basic string processing and soft-string matching. Includes basic string normalization and similarity matching as well as functionality to build classifiers.
+
+#### MIT-LL - LLHash
+[https://github.com/mitll/LLHash](https://github.com/mitll/LLHash) Tools for efficient nearest-neighbor search of vector and string data using locality sensitive hashing techniques.
+
+#### MIT-LL - LLClass
+[https://github.com/mitll/LLClass](https://github.com/mitll/LLClass) Document classification in Java. Pre-trained models for language identification.
+
+#### MIT-LL - Text.jl
+[https://github.com/mit-nlp/Text.jl](https://github.com/mit-nlp/Text.jl) Text processing and document classification in Julia. 
+
 ## End-to-end search systems
 
 ### DIG: Domain-Specific Insight Graphs
