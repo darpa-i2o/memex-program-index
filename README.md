@@ -234,23 +234,27 @@ A rich set of visual components for creating rich user interfaces for querying a
 ### TellFinder
 
 #### Stories Components
-[https://github.com/unchartedsoftware/stories-personas](https://github.com/unchartedsoftware/stories-personas) (development - eta May 2017).
+[https://github.com/unchartedsoftware/stories-personas](https://github.com/unchartedsoftware/stories-personas) (stable).
 UI component for the Stories 'Personas' visualization.
 
 [https://github.com/unchartedsoftware/stories-facets](https://github.com/unchartedsoftware/stories-facets) (stable).
 UI component for the Stories 'Facets' visualization.
 
 #### TellFinder Data API
-[https://github.com/uncharted/TellFinder-DataAPI](https://github.com/uncharted/TellFinder-DataAPI) (development - eta May 2017).
-RESTful server for accessing all of TellFinder data models, analytics and search strategies. Includes authentication and case management modules.
+[https://github.com/unchartedsoftware/tellfinder-data](https://github.com/unchartedsoftware/tellfinder-data) (stable).
+RESTful server for accessing all of TellFinder data models, analytics and search strategies.
 
-#### TellFinder Pipeline
-[https://github.com/uncharted/TellFinder-Pipeline](https://github.com/uncharted/TellFinder-Pipeline) (development - eta June 2017).
+#### TellFinder Pipeline Core
+[https://github.com/unchartedsoftware/tellfinder-pipeline-core](https://github.com/unchartedsoftware/tellfinder-pipeline-core) (stable).
 General purpose distributed processes pipeline for ingesting web data into the TellFinder data model. Includes general purpose data cleaning, extraction, normalization and analytics. Based on the [https://github.com/unchartedsoftware/sparkpipe-core](Uncharted Spark Pipeline).
 
-#### TellFinder Example Component Application
-[https://github.com/uncharted/TellFinder-ComponentExample](https://github.com/uncharted/TellFinder-ComponentExample) (development - eta June 2017).
-Example application showing TellFinder UI components and Data API on a new domain. Includes sample data.
+#### TellFinder UI core
+[https://github.com/unchartedsoftware/tellfinder-ui-core](https://github.com/unchartedsoftware/tellfinder-ui-core) (stable).
+UI Component library for building TellFinder applications.  
+
+#### TellFinder Universal
+[https://github.com/unchartedsoftware/tellfinder-universal](https://github.com/unchartedsoftware/tellfinder-universal) (stable).
+Fully functional end-to-end application showing TellFinder UI components and Data API on a new domain. Includes sample data.
 
 ### TorFlow
 [https://github.com/unchartedsoftware/torflow](https://github.com/unchartedsoftware/torflow) (stable demo).
