@@ -208,6 +208,9 @@ https://github.com/autoncompute/BigITQ This project contains a distributed imple
 #### MIT-LL - Text.jl
 [https://github.com/mit-nlp/Text.jl](https://github.com/mit-nlp/Text.jl) Text processing and document classification in Julia. 
 
+#### Columbia University - ColumbiaImageSearch
+[https://github.com/ColumbiaDVMM/ColumbiaImageSearch](https://github.com/ColumbiaDVMM/ColumbiaImageSearch) Image and face indexing and search at scale.
+
 ## End-to-end search systems
 
 ### DIG: Domain-Specific Insight Graphs
