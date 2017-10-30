@@ -227,9 +227,12 @@ A general-purpose, highly-scalable, easy-to-use record linkage toolit contrainin
 [https://github.com/usc-isi-i2/dig-sandpaper](https://github.com/usc-isi-i2/dig-sandpaper) (beta).
 A search engine that translates structured queries for a knowledge graph to sophisticated ElasticSearch queries that retrieve ranked results on noisy knowledge graphs.
 
-#### Graphical Interface For Searching Knowledge Graphs
-[https://github.com/NextCenturyCorporation/digapp-ht](https://github.com/NextCenturyCorporation/digapp-ht) (stable).
-A rich set of visual components for creating rich user interfaces for querying and visualizing knowledge graphs.
+#### Search and Visualization User Interface (UI)
+[https://github.com/NextCenturyCorporation/dig-ui](https://github.com/NextCenturyCorporation/dig-ui)
+Customizable, config-driven search and visualization UI for DIG data of any domain.
+
+[https://github.com/DigElements](https://github.com/DigElements)
+Library of Polymer elements used in the DIG UI.
 
 ### TellFinder
 
