@@ -237,6 +237,14 @@ Customizable, config-driven search and visualization UI for DIG data of any doma
 [https://github.com/DigElements](https://github.com/DigElements)
 Library of Polymer elements used in the DIG UI.
 
+#### etk
+[https://github.com/usc-isi-i2/etk](https://github.com/usc-isi-i2/etk)
+Extraction toolkit library
+
+#### myDIG
+[https://github.com/usc-isi-i2/dig-etl-engine](https://github.com/usc-isi-i2/dig-etl-engine)
+End to End Information extraction and integration system
+
 ### TellFinder
 
 #### Stories Components
