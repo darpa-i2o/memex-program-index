@@ -40,7 +40,7 @@ Additional documentation: [http://scrapy-cluster.readthedocs.io/](http://scrapy-
 This repository hosts code and schema information related to the Memex Crawl Data Repository (CDR).
 
 #### SRI Forum Spider 
-[https://github.com/pporras7/TeamSRI-LIGHTS] (https://github.com/pporras7/TeamSRI-LIGHTS) (stable).
+[https://github.com/pporras7/TeamSRI-LIGHTS](https://github.com/pporras7/TeamSRI-LIGHTS) (stable).
 An interactive web forum analysis tool that operates over Tor hidden services. This tool is capable of passive forum data capture and posting dialog at random or user-specifiable intervals. (Python) 
 
 ### Crawler Utilities
@@ -89,7 +89,7 @@ An interactive web forum analysis tool that operates over Tor hidden services. T
 [https://github.com/TeamHG-Memex/scrapy-crawl-once](https://github.com/TeamHG-Memex/scrapy-crawl-once) (stable) This package provides a Scrapy middleware which allows to avoid re-crawling pages which were already downloaded in previous crawls.
 
 #### SRI HSProbe
-[https://github.com/pporras7/TeamSRI-LIGHTS] (https://github.com/pporras7/TeamSRI-LIGHTS) (stable).
+[https://github.com/pporras7/TeamSRI-LIGHTS](https://github.com/pporras7/TeamSRI-LIGHTS) (stable).
 HSProbe is a python multi-threaded STEM-based application designed to interrogate the status of Tor hidden services (HSs) and extracting hidden service content. It is an HS-protocol savvy crawler, that uses protocol error codes to decide what to do when a hidden service is not reached. HSProbe tests whether specified Tor hidden services (.onion addresses) are listening on one of a range of pre-specified ports, and optionally, whether they are speaking over other specified protocols. As of this version, support for HTTP and HTTPS is implemented. Hsprobe takes as input a list of hidden services to be probed and generates as output a similar list of the results of each hidden service probed. (Python)
 
 
@@ -129,7 +129,7 @@ HSProbe is a python multi-threaded STEM-based application designed to interrogat
 DDT is an interactive system that helps users explore and better understand a domain (or topic) as it is represented on the Web. DDT allows a domain expert to visualize and analyze pages returned by a search engine or a crawler and provide feedback about their relevance. Based on this feedback, the system guides the user in the creation of a model for the domain of interest. This model can then be used by a focused crawler such as ACHE to automatically discover and download a large number of web pages that belong to the domain.
 
 ### Site Hound (formerly THH)
-[https://github.com/TeamHG-Memex/sitehound ](https://github.com/TeamHG-Memex/sitehound)
+[https://github.com/TeamHG-Memex/sitehound](https://github.com/TeamHG-Memex/sitehound)
 
 Site Hound (previously THH) is a Domain Discovery Tool that extends the capabilities of commercial search engines using automation and human-in-the-loop (HITL) machine learning, allowing the user efficiently expand the set of relevant web pages within his domain/s or topic/s of interest. Site Hound is the UI to a more complex set of tools (which are described and linked to in this repository READ ME). Site Hound was developed under the Memex Program by HyperionGray LLC in partnership with Scrapinghub, Ltd.
 
@@ -260,7 +260,7 @@ RESTful server for accessing all of TellFinder data models, analytics and search
 
 #### TellFinder Pipeline Core
 [https://github.com/unchartedsoftware/tellfinder-pipeline-core](https://github.com/unchartedsoftware/tellfinder-pipeline-core) (stable).
-General purpose distributed processes pipeline for ingesting web data into the TellFinder data model. Includes general purpose data cleaning, extraction, normalization and analytics. Based on the [https://github.com/unchartedsoftware/sparkpipe-core](Uncharted Spark Pipeline).
+General purpose distributed processes pipeline for ingesting web data into the TellFinder data model. Includes general purpose data cleaning, extraction, normalization and analytics. Based on the [Uncharted Spark Pipeline](https://github.com/unchartedsoftware/sparkpipe-core).
 
 #### TellFinder UI core
 [https://github.com/unchartedsoftware/tellfinder-ui-core](https://github.com/unchartedsoftware/tellfinder-ui-core) (stable).
